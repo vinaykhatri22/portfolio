@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Porfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/43c90bde29.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/final.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Service">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi,I'm <span>Vinay</span>  <br> Khatri From India</h1>
+
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+           <div class="row">
+               <div class="about-col-1">
+                <img src="image/96347.jpg" alt="">
+               </div>
+               <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am dedicated to pursuing a career within an organization where I can coninuously acquire new 
+                    technical skills and enhance my abilities. My primary focus is to contribute effectively towards the 
+                    achievement of the organization’s goals, while also nurturing my own professional growth and 
+                    development.</p>
+                <div class="tab-titles">
+                   <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                   <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                   <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-content active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>PG life website</li>
+                        <li><span>Python Developer</span><br>Gesture Controlled Media Player</li>
+                       
+                    </ul>
+                </div>
+                <div class="tab-content" id="experience">
+                    <ul>
+                        <li><span>April 2023</span><br>Fullstack web development in Upflairs Pvt Ltd</li>
+                        <li><span>June-Augast 2022</span><br>Python Developer Internship in Matrix computer</li>
+                       
+                    </ul>
+                </div>
+                <div class="tab-content" id="education">
+                    <ul>
+                        <li><span>2024</span><br>B.Tech from Jaipur Engineering College
+                            & Research Centre, Jaipur</li>
+                        <li><span>2020</span><br>XII RBSE form SALP School</li>
+                        <li><span>2018</span> <br> X RBSE from AVM School </li>
+                       
+                    </ul>
+                </div>
+               </div>
+           </div>
+        </div>
+    </div>
+<!-- ----------------service------------------ -->
+<div id="Service">
+    <div class="container">
+        <h1 class="sub-title">My Service</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>During the training period I learned the basics of web development and 
+                    worked onPG life website and many minor projects.
+                    </p>
+                <a href="#"> Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python Developer</h2>
+                <p>During the training period I learned the basic of python amd worked on Gesture
+                    Controlled Media Player and minor projects.</p>
+                <a href="#"> Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-terminal"></i>
+                <h2>SQL</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eius est reiciendis esse eligendi incidunt suscipit quod corrupti vitae nisi,!</p>
+                <a href="#"> Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------portfolio------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work-1.png">
+                <div class="layer">
+                    <h3> PG Life Website</h3>
+                    <p>(Technology : HTML,CSS,JS) PG refers to when a person stays in someone else's house/property 
+                        and pays rent for the accommodation and facilities available with it, such as electricity, water,
+                        housekeeping, and food at times.
+                        </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-2.png">
+                <div class="layer">
+                    <h3> Gesture Controlled Media Player</h3>
+                    <p>(Technology : python) Gesture recognition is a topic in computer science and lang. technology 
+                        with the goal ofinterpreting human gesture via mathematical algorithms.this technique is called
+                        leap motion getting very famous.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-3.png">
+                <div class="layer">
+                    <h3> Online Shopping App</h3>
+                    <p>The app connect you to the talented people around the world.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+
+<!-- -------------------------Contact-------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p> <i class="fa-solid fa-envelope"></i>     vinaykhatri.it24@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>6367171596</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""> <i class="fa-brands fa-whatsapp"></i></a>
+                    
+                </div>
+                <a href="image/VINAY KHATRI _resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+
+                    <input type="email" name="Email" placeholder="Your Email" required>
+
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright <i class="fa-regular fa-copyright"></i> Vinay.<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontent=document.getElementsByClassName("tab-content");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontents of tabcontent){
+                tabcontents.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+</body>
+
+</html>
